@@ -11,7 +11,7 @@ const Amenities = () => {
         <div className="sm:col-span-2 lg:col-start-3">
           <div className="flex h-full min-h-60 flex-col items-center justify-center gap-8 rounded-3xl p-8 ring-1 ring-gray-900/10">
             <div className="flex flex-col items-center justify-center gap-1">
-              <SoapDispenserDroplet />
+              <SoapDispenserDroplet className="size-8" strokeWidth={1.5} />
               <h3 className="flex-1 text-xl">Essentials Kit</h3>
             </div>
           </div>

@@ -12,13 +12,13 @@ const HeroSection = () => {
             <div>logo</div>
             <div className="flex flex-1 items-center justify-center gap-8">
               <div className="flex flex-col items-center gap-4 text-center">
-                <a className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 dark:text-gray-400 dark:ring-white/10 dark:hover:ring-white/20">
+                <a className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   Agiou Orous 4, Athens 104 35
                 </a>
                 <h1 className="max-w-md text-5xl font-medium tracking-tight text-balance sm:text-6xl">
                   Urban Comfort in Athens
                 </h1>
-                <p className="text-sm/6 text-gray-500 dark:text-gray-300">
+                <p className="text-sm/6 text-gray-600">
                   Loved by 200+ happy guests
                 </p>
                 <BookButton />
