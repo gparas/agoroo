@@ -31,7 +31,7 @@ const HeroSection = () => {
               alt="Hero Image"
               fill
               priority
-              className="object-cover"
+              className="object-cover object-bottom-right"
             />
           </div>
         </div>

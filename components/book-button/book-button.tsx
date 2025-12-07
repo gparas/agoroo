@@ -9,7 +9,7 @@ const BookButton = () => {
   return (
     <motion.a
       href="#"
-      className="relative flex items-center justify-center gap-4 rounded-full bg-gray-900 py-1 pr-5 pl-1 text-center hover:bg-gray-800"
+      className="relative inline-flex items-center justify-center gap-4 rounded-full bg-gray-900 py-1 pr-5 pl-1 text-center hover:bg-gray-800"
       whileHover="hover"
     >
       <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white">
