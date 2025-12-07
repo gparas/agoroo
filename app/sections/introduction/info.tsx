@@ -1,6 +1,5 @@
 import { Fragment } from "react/jsx-runtime";
 import { DynamicIcon, IconName } from "lucide-react/dynamic";
-import FadeIn, { FadeInStagger } from "@/components/fade-in";
 
 const ROWS = [
   {
@@ -26,10 +25,10 @@ const ROWS = [
 const IntroductionInfo = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-      <FadeInStagger className="flex flex-col gap-6 rounded-4xl bg-white p-8 lg:col-start-2 xl:col-start-3">
+      <div className="flex flex-col gap-6 rounded-4xl bg-white p-8 lg:col-start-2 xl:col-start-3">
         {ROWS.map((row, index) => (
           <Fragment key={index}>
-            <FadeIn>
+            <div>
               <div className="flex flex-col gap-x-4 md:flex-row md:items-center">
                 <p className="text-3xl md:text-4xl">{row.value}</p>
                 <div className="flex-1">
@@ -44,11 +43,11 @@ const IntroductionInfo = () => {
                   strokeWidth={1.5}
                 />
               </div>
-            </FadeIn>
+            </div>
             {index < ROWS.length - 1 && <hr className="border-gray-200" />}
           </Fragment>
         ))}
-      </FadeInStagger>
+      </div>
     </div>
   );
 };

@@ -30,6 +30,7 @@ const HeroSection = () => {
               src={HeroImage}
               alt="Hero Image"
               fill
+              priority
               className="object-cover"
             />
           </div>
