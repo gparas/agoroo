@@ -18,9 +18,6 @@ const HeroSection = () => {
                 <h1 className="max-w-md text-5xl font-medium tracking-tight text-balance sm:text-6xl">
                   Urban Comfort in Athens
                 </h1>
-                <p className="text-sm/6 text-gray-600">
-                  Loved by 200+ happy guests
-                </p>
                 <BookButton />
               </div>
             </div>

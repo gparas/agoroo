@@ -1,3 +1,4 @@
+import AboutSection from "./sections/about";
 import Gallery from "./sections/gallery";
 import HeroSection from "./sections/hero";
 import Highlights from "./sections/highlights";
@@ -8,8 +9,9 @@ export default function Home() {
     <>
       <HeroSection />
       <Introduction />
-      <Highlights />
+      <AboutSection />
       <Gallery />
+      <Highlights />
     </>
   );
 }

@@ -11,6 +11,7 @@
   "dependencies": {
     "lucide-react": "^0.555.0",
     "motion": "^12.23.25",
+    "motion-plus": "https://api.motion.dev/registry?package=motion-plus&version=1.5.4&token=6900a293034878e0f058a42762c7c1693fbf75835e12feb46e94961d2fd6bedf",
     "next": "^16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0"

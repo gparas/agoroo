@@ -10,13 +10,7 @@ const BgImage = () => {
   const y = useTransform(scrollYProgress, [0, 1], ["-40%", "0%"]);
 
   return (
-    <motion.div
-      className="absolute inset-0 opacity-60"
-      style={{
-        y,
-        height: "140%",
-      }}
-    >
+    <motion.div className="absolute inset-0 h-svw opacity-60" style={{ y }}>
       <Image
         fill
         src={Content}
