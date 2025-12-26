@@ -15,13 +15,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  reviews,
 }: Readonly<{
   children: React.ReactNode;
+  reviews: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={`${inter.variable} text-gray-900 antialiased`}>
         {children}
+        {reviews}
       </body>
     </html>
   );

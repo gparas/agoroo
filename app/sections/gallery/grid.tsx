@@ -19,6 +19,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={DiningRoom}
+            sizes="(max-width: 768px) 100vw, 30vw"
             className="object-cover object-bottom opacity-80"
             alt="Minimalist dining corner with a wooden table and black chairs"
           />
@@ -32,9 +33,10 @@ const GalleryGrid = () => {
           style={{ aspectRatio: "4/6" }}
         >
           <Image
-            src={CloseUpKitchen}
-            alt="Close-up of wooden kitchen countertop with cookbooks"
             fill
+            src={CloseUpKitchen}
+            sizes="(max-width: 768px) 100vw, 30vw"
+            alt="Close-up of wooden kitchen countertop with cookbooks"
             className="object-cover object-bottom opacity-75"
           />
           <div className="relative text-white">
@@ -44,9 +46,10 @@ const GalleryGrid = () => {
         </FadeIn>
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
           <Image
-            src={SideTable}
-            alt="Styled coffee table with modern ceramic decor"
             fill
+            src={SideTable}
+            sizes="(max-width: 768px) 100vw, 30vw"
+            alt="Styled coffee table with modern ceramic decor"
             className="object-cover opacity-75"
           />
           <div className="relative text-white">
@@ -58,9 +61,10 @@ const GalleryGrid = () => {
       <div className="flex flex-col gap-4 md:col-span-4">
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
           <Image
-            src={LivingRoom}
-            alt="Contemporary living room with a grey sofa"
             fill
+            src={LivingRoom}
+            sizes="(max-width: 768px) 100vw, 40vw"
+            alt="Contemporary living room with a grey sofa"
             className="object-cover object-bottom-left opacity-80"
           />
           <div className="relative text-white">
@@ -72,6 +76,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={Bedroom}
+            sizes="(max-width: 768px) 100vw, 40vw"
             className="object-cover object-bottom opacity-80"
             alt="Bright bedroom with warm bedside lighting"
           />
@@ -84,6 +89,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={Kitchen}
+            sizes="(max-width: 768px) 100vw, 40vw"
             className="object-cover object-bottom-right opacity-80"
             alt="Modern fully equipped kitchen"
           />
@@ -98,6 +104,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={Entryway}
+            sizes="(max-width: 768px) 100vw, 30vw"
             className="object-cover opacity-80"
             style={{ objectPosition: "25% 75%" }}
             alt="Minimalist entryway area with open wardrobe rack"
@@ -114,6 +121,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={Bathroom}
+            sizes="(max-width: 768px) 100vw, 30vw"
             className="object-cover object-bottom opacity-80"
             alt="Modern bathroom with dark stone tiles and wooden storage cabinet"
           />
@@ -126,6 +134,7 @@ const GalleryGrid = () => {
           <Image
             fill
             src={Balcony}
+            sizes="(max-width: 768px) 100vw, 30vw"
             className="object-cover opacity-80"
             style={{ objectPosition: "60% 85%" }}
             alt="Sunny balcony with two black outdoor chairs"

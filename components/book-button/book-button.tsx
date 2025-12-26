@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-const MotionArrow = motion(ArrowUpRight);
+const MotionArrow = motion.create(ArrowUpRight);
 
 const BookButton = () => {
   return (
