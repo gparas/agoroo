@@ -25,7 +25,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O1</p>
-            <h3 className="text-2xl">Dining Room</h3>
+            <h3 className="text-xl">Dining Room</h3>
           </div>
         </FadeIn>
         <FadeIn
@@ -41,7 +41,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O2</p>
-            <h3 className="text-2xl">Kitchen</h3>
+            <h3 className="text-xl">Kitchen</h3>
           </div>
         </FadeIn>
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
@@ -54,7 +54,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O3</p>
-            <h3 className="text-2xl">Side Table</h3>
+            <h3 className="text-xl">Side Table</h3>
           </div>
         </FadeIn>
       </div>
@@ -69,7 +69,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O4</p>
-            <h3 className="text-2xl">Living Room</h3>
+            <h3 className="text-xl">Living Room</h3>
           </div>
         </FadeIn>
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
@@ -82,7 +82,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O5</p>
-            <h3 className="text-2xl">Bedroom</h3>
+            <h3 className="text-xl">Bedroom</h3>
           </div>
         </FadeIn>
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
@@ -95,7 +95,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O6</p>
-            <h3 className="text-2xl">Kitchen</h3>
+            <h3 className="text-xl">Kitchen</h3>
           </div>
         </FadeIn>
       </div>
@@ -111,7 +111,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O7</p>
-            <h3 className="text-2xl">Entryway</h3>
+            <h3 className="text-xl">Entryway</h3>
           </div>
         </FadeIn>
         <FadeIn
@@ -127,7 +127,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O8</p>
-            <h3 className="text-2xl">Bathroom</h3>
+            <h3 className="text-xl">Bathroom</h3>
           </div>
         </FadeIn>
         <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
@@ -141,7 +141,7 @@ const GalleryGrid = () => {
           />
           <div className="relative text-white">
             <p>O9</p>
-            <h3 className="text-2xl">Balcony</h3>
+            <h3 className="text-xl">Balcony</h3>
           </div>
         </FadeIn>
       </div>

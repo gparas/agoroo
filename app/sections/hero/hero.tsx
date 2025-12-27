@@ -5,7 +5,11 @@ import BookButton from "@/components/book-button";
 
 const HeroSection = () => {
   return (
-    <header className="flex h-screen flex-col p-4" style={{ maxHeight: 1200 }}>
+    <header
+      id="hero"
+      className="flex h-screen flex-col p-4"
+      style={{ maxHeight: 1200 }}
+    >
       <div className="container mx-auto flex w-full flex-1 flex-col">
         <div className="grid flex-1 grid-cols-1 gap-x-4 gap-y-10 lg:grid-cols-2">
           <div className="flex flex-col lg:p-6">

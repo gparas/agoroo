@@ -1,18 +1,30 @@
 "use client";
 
+import { airbnbLink } from "@/lib/constants";
+import dayjs from "dayjs";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const MotionArrow = motion.create(ArrowUpRight);
 
-const BookButton = () => {
+interface Props {
+  inverse?: boolean;
+}
+
+const BookButton = ({ inverse }: Props) => {
+  const checkIn = dayjs().add(2, "day").format("YYYY-MM-DD");
+  const checkOut = dayjs().add(5, "day").format("YYYY-MM-DD");
   return (
     <motion.a
-      href="#"
-      className="relative inline-flex items-center justify-center gap-4 rounded-full bg-gray-900 py-1 pr-5 pl-1 text-center hover:bg-gray-800"
+      target="_blank"
+      rel="noopener noreferrer"
+      href={`${airbnbLink}?check_in=${checkIn}&check_out=${checkOut}&guests=1&adults=1`}
+      className={`relative inline-flex items-center justify-center gap-4 rounded-full py-1 pr-5 pl-1 text-center ${inverse ? "bg-white text-gray-900 hover:bg-white/95" : "bg-gray-900 text-white hover:bg-gray-800"}`}
       whileHover="hover"
     >
-      <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white">
+      <span
+        className={`flex size-11 items-center justify-center rounded-full ${inverse ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}
+      >
         <span className="relative flex size-6 items-center justify-center overflow-hidden">
           <MotionArrow
             strokeWidth={1.5}
@@ -38,7 +50,7 @@ const BookButton = () => {
           />
         </span>
       </span>
-      <span className="text-white">Reserve Now</span>
+      <span>Reserve Now</span>
     </motion.a>
   );
 };

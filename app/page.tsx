@@ -1,6 +1,8 @@
-import AboutSection from "./sections/about";
+import Reviews from "./sections/reviews";
 import Gallery from "./sections/gallery";
 import HeroSection from "./sections/hero";
+import OfferSection from "./sections/offer";
+import AboutSection from "./sections/about";
 import Highlights from "./sections/highlights";
 import Introduction from "./sections/introduction";
 
@@ -12,6 +14,8 @@ export default function Home() {
       <AboutSection />
       <Gallery />
       <Highlights />
+      <OfferSection />
+      <Reviews />
     </>
   );
 }

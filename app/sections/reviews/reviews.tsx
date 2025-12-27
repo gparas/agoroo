@@ -11,6 +11,7 @@ import Ratings from "./ratings";
 
 import { getRatings, getReviews } from "./data";
 import { calculateOverallRating } from "./utils";
+import { airbnbLink } from "@/lib/constants";
 
 const Reviews = async () => {
   const reviews = await getReviews();
@@ -28,13 +29,13 @@ const Reviews = async () => {
   });
 
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section id="reviews" className="bg-white py-24 sm:py-32">
       <div className="container mx-auto px-6 xl:px-10">
         <FadeIn className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="text-base/7 text-gray-600">Reviews</h2>
           <div className="flex items-center justify-center gap-3">
             <Image src={WreathLeft} width={24} height={48} alt="" />
-            <p className="text-3xl tracking-tight text-balance sm:text-5xl">
+            <p className="text-4xl tracking-tight text-balance sm:text-5xl">
               <span>{ratingStats.overall.toFixed(1)}</span>
             </p>
             <Image src={WreathRight} width={24} height={48} alt="" />
@@ -72,6 +73,16 @@ const Reviews = async () => {
             </FadeIn>
           ))}
         </FadeInStagger>
+        <div className="mt-12 text-center">
+          <a
+            href={`${airbnbLink}/reviews`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full bg-gray-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-gray-800 sm:w-auto"
+          >
+            View all reviews
+          </a>
+        </div>
       </div>
     </section>
   );

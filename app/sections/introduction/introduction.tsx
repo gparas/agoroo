@@ -5,7 +5,8 @@ import IntroductionInfo from "./info";
 const Introduction = () => {
   return (
     <section
-      className="relative flex h-screen flex-col overflow-hidden bg-gray-800 p-6"
+      id="introduction"
+      className="relative flex flex-col overflow-hidden bg-gray-800 p-6 sm:h-screen"
       style={{ minHeight: 680 }}
     >
       <BgImage />
