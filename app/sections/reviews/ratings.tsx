@@ -24,7 +24,7 @@ const Ratings = ({ rating }: Props) => {
               <span className="text-sm text-gray-600">{label}</span>
             </FadeIn>
             {statIdx < entries.length - 1 && (
-              <FadeIn
+              <div
                 className={`h-12 w-px bg-gray-300 ${statIdx === 1 ? "hidden md:block" : ""}`}
               />
             )}

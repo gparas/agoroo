@@ -53,9 +53,18 @@ const Reviews = async () => {
                     className="rounded-2xl border border-gray-300 p-6"
                   >
                     <div className="flex items-start">
-                      <div className="flex flex-1 flex-col">
-                        <span className="font-semibold">{review.hostName}</span>
-                        <span className="text-sm text-gray-600">{date}</span>
+                      <div className="flex flex-1 items-center gap-2">
+                        <span className="inline-flex size-9 shrink-0 items-center justify-center rounded-full bg-gray-300">
+                          <span className="text-sm font-medium text-gray-600">
+                            {review.hostName.charAt(0).toUpperCase()}
+                          </span>
+                        </span>
+                        <div className="flex flex-col">
+                          <span className="leading-tight font-semibold">
+                            {review.hostName}
+                          </span>
+                          <span className="text-sm text-gray-600">{date}</span>
+                        </div>
                       </div>
                       <div className="flex items-center gap-1">
                         <span>{review.rating.toFixed(1)}</span>

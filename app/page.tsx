@@ -5,6 +5,7 @@ import OfferSection from "./sections/offer";
 import AboutSection from "./sections/about";
 import Highlights from "./sections/highlights";
 import Introduction from "./sections/introduction";
+import LocationSection from "./sections/location";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Highlights />
       <OfferSection />
       <Reviews />
+      <LocationSection />
     </>
   );
 }

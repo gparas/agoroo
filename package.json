@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vis.gl/react-google-maps": "^1.7.1",
     "dayjs": "^1.11.19",
     "googleapis": "^168.0.0",
     "lucide-react": "^0.555.0",
