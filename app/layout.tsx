@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import Footer from "./footer";
+
 import "./globals.css";
 
 const inter = Inter({
@@ -19,9 +22,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} text-zinc-900 antialiased`}>
         {children}
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );
