@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <Introduction />
-      <AboutSection />
-      <Gallery />
-      <Highlights />
-      <OfferSection />
-      <Reviews />
-      <LocationSection />
+      <main>
+        <Introduction />
+        <AboutSection />
+        <Gallery />
+        <Highlights />
+        <OfferSection />
+        <Reviews />
+        <LocationSection />
+      </main>
     </>
   );
 }
