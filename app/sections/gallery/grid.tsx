@@ -15,7 +15,7 @@ const GalleryGrid = () => {
   return (
     <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-10">
       <div className="flex flex-col gap-4 md:col-span-3">
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={DiningRoom}
@@ -29,7 +29,7 @@ const GalleryGrid = () => {
           </div>
         </FadeIn>
         <FadeIn
-          className="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4"
+          className="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4"
           style={{ aspectRatio: "4/6" }}
         >
           <Image
@@ -44,7 +44,7 @@ const GalleryGrid = () => {
             <h3 className="text-xl">Kitchen</h3>
           </div>
         </FadeIn>
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={SideTable}
@@ -59,7 +59,7 @@ const GalleryGrid = () => {
         </FadeIn>
       </div>
       <div className="flex flex-col gap-4 md:col-span-4">
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={LivingRoom}
@@ -72,7 +72,7 @@ const GalleryGrid = () => {
             <h3 className="text-xl">Living Room</h3>
           </div>
         </FadeIn>
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={Bedroom}
@@ -85,7 +85,7 @@ const GalleryGrid = () => {
             <h3 className="text-xl">Bedroom</h3>
           </div>
         </FadeIn>
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={Kitchen}
@@ -100,7 +100,7 @@ const GalleryGrid = () => {
         </FadeIn>
       </div>
       <div className="flex flex-col gap-4 md:col-span-3">
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={Entryway}
@@ -115,7 +115,7 @@ const GalleryGrid = () => {
           </div>
         </FadeIn>
         <FadeIn
-          className="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4"
+          className="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4"
           style={{ aspectRatio: "6/8" }}
         >
           <Image
@@ -130,7 +130,7 @@ const GalleryGrid = () => {
             <h3 className="text-xl">Bathroom</h3>
           </div>
         </FadeIn>
-        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-gray-800 p-4">
+        <FadeIn className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-2xl bg-zinc-800 p-4">
           <Image
             fill
             src={Balcony}

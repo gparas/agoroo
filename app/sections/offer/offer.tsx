@@ -6,7 +6,7 @@ const OfferSection = () => {
   return (
     <section id="offer">
       <div className="container mx-auto px-6">
-        <div className="relative flex flex-col items-center overflow-hidden rounded-3xl bg-gray-900 px-6 py-28 md:px-10 md:py-40">
+        <div className="relative flex flex-col items-center overflow-hidden rounded-3xl bg-zinc-900 px-6 py-28 md:px-10 md:py-40">
           <Image
             src={BgImage}
             alt=""

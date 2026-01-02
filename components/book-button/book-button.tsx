@@ -19,11 +19,11 @@ const BookButton = ({ inverse }: Props) => {
       target="_blank"
       rel="noopener noreferrer"
       href={`${airbnbLink}?check_in=${checkIn}&check_out=${checkOut}&guests=1&adults=1`}
-      className={`relative inline-flex items-center justify-center gap-4 rounded-full py-1 pr-5 pl-1 text-center ${inverse ? "bg-white text-gray-900 hover:bg-white/95" : "bg-gray-900 text-white hover:bg-gray-800"}`}
+      className={`relative inline-flex items-center justify-center gap-4 rounded-full py-1 pr-5 pl-1 text-center ${inverse ? "bg-white text-zinc-900 hover:bg-white/95" : "bg-zinc-900 text-white hover:bg-zinc-800"}`}
       whileHover="hover"
     >
       <span
-        className={`flex size-11 items-center justify-center rounded-full ${inverse ? "bg-gray-900 text-white" : "bg-white text-gray-900"}`}
+        className={`flex size-11 items-center justify-center rounded-full ${inverse ? "bg-zinc-900 text-white" : "bg-white text-zinc-900"}`}
       >
         <span className="relative flex size-6 items-center justify-center overflow-hidden">
           <MotionArrow

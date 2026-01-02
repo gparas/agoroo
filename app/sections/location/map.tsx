@@ -9,17 +9,18 @@ const LocationMap = () => {
         mapId={"d543b72536ff9d9f6c1ba73e"}
         style={{ width: "100%", height: "100%" }}
         defaultCenter={{ lat: 37.9815012, lng: 23.7109165 }}
-        defaultZoom={15}
+        defaultZoom={16}
         gestureHandling={"greedy"}
         disableDefaultUI
         scrollwheel={false}
+        colorScheme="DARK"
       >
         <AdvancedMarker
           position={{ lat: 37.98164493348696, lng: 23.713502126118836 }}
           title={"agoroo"}
         >
-          <div className="absolute top-0 left-0 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-gray-900/20">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-900 text-white">
+          <div className="absolute top-0 left-0 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-rose-700/20">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-rose-400 text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

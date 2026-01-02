@@ -19,7 +19,7 @@ const AboutSection = () => {
               alt="George Parapanissios Profile Picture"
               className="inline-block size-28 rounded-full outline -outline-offset-1 outline-black/5"
             />
-            <span className="absolute right-0 bottom-0 inline-flex size-7 items-center justify-center rounded-full bg-gray-800 ring-2 ring-white">
+            <span className="absolute right-0 bottom-0 inline-flex size-7 items-center justify-center rounded-full bg-rose-500 ring-2 ring-white">
               <ShieldCheck className="size-5 text-white" />
             </span>
           </div>

@@ -32,7 +32,7 @@ const Reviews = async () => {
     <section id="reviews" className="bg-white py-24 sm:py-32">
       <div className="container mx-auto px-6 xl:px-10">
         <FadeIn className="mx-auto mb-16 max-w-2xl text-center">
-          <h2 className="text-base/7 text-gray-600">Reviews</h2>
+          <h2 className="text-base/7 text-zinc-600">Reviews</h2>
           <div className="flex items-center justify-center gap-3">
             <Image src={WreathLeft} width={24} height={48} alt="" />
             <p className="text-4xl tracking-tight text-balance sm:text-5xl">
@@ -50,12 +50,12 @@ const Reviews = async () => {
                 return (
                   <div
                     key={review.id}
-                    className="rounded-2xl border border-gray-300 p-6"
+                    className="rounded-2xl border border-zinc-300 p-6"
                   >
                     <div className="flex items-start">
                       <div className="flex flex-1 items-center gap-2">
-                        <span className="inline-flex size-9 shrink-0 items-center justify-center rounded-full bg-gray-300">
-                          <span className="text-sm font-medium text-gray-600">
+                        <span className="inline-flex size-9 shrink-0 items-center justify-center rounded-full bg-zinc-300">
+                          <span className="text-sm font-medium text-zinc-600">
                             {review.hostName.charAt(0).toUpperCase()}
                           </span>
                         </span>
@@ -63,7 +63,7 @@ const Reviews = async () => {
                           <span className="leading-tight font-semibold">
                             {review.hostName}
                           </span>
-                          <span className="text-sm text-gray-600">{date}</span>
+                          <span className="text-sm text-zinc-600">{date}</span>
                         </div>
                       </div>
                       <div className="flex items-center gap-1">
@@ -87,7 +87,7 @@ const Reviews = async () => {
             href={`${airbnbLink}/reviews`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full bg-gray-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-gray-800 sm:w-auto"
+            className="inline-block rounded-full bg-zinc-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-zinc-800 sm:w-auto"
           >
             View all reviews
           </a>

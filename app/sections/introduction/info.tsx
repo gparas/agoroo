@@ -33,7 +33,7 @@ const IntroductionInfo = () => {
                 <p className="text-3xl md:text-4xl">{row.value}</p>
                 <div className="flex-1">
                   <p className="text-xl md:text-2xl">{row.title}</p>
-                  <p className="hidden text-gray-600 md:block">
+                  <p className="hidden text-zinc-600 md:block">
                     {row.description}
                   </p>
                 </div>
@@ -44,7 +44,7 @@ const IntroductionInfo = () => {
                 />
               </div>
             </div>
-            {index < ROWS.length - 1 && <hr className="border-gray-200" />}
+            {index < ROWS.length - 1 && <hr className="border-zinc-200" />}
           </Fragment>
         ))}
       </div>

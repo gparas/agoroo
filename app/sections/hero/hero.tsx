@@ -16,7 +16,7 @@ const HeroSection = () => {
             <div>logo</div>
             <div className="flex flex-1 items-center justify-center gap-8">
               <div className="flex flex-col items-center gap-4 text-center">
-                <a className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                <a className="relative rounded-full px-3 py-1 text-sm/6 text-zinc-600 ring-1 ring-zinc-900/10 hover:ring-zinc-900/20">
                   Agiou Orous 4, Athens, Greece
                 </a>
                 <h1 className="max-w-md text-5xl font-medium tracking-tight text-balance sm:text-6xl">

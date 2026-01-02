@@ -18,14 +18,14 @@ const Ratings = ({ rating }: Props) => {
         return (
           <Fragment key={statIdx}>
             <FadeIn className="flex flex-col items-center justify-center">
-              <span className="text-2xl font-medium tracking-tight text-gray-900">
+              <span className="text-2xl font-medium tracking-tight text-zinc-900">
                 {Number(value).toFixed(1)}
               </span>
-              <span className="text-sm text-gray-600">{label}</span>
+              <span className="text-sm text-zinc-600">{label}</span>
             </FadeIn>
             {statIdx < entries.length - 1 && (
               <div
-                className={`h-12 w-px bg-gray-300 ${statIdx === 1 ? "hidden md:block" : ""}`}
+                className={`h-12 w-px bg-zinc-300 ${statIdx === 1 ? "hidden md:block" : ""}`}
               />
             )}
           </Fragment>

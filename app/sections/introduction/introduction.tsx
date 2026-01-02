@@ -6,7 +6,7 @@ const Introduction = () => {
   return (
     <section
       id="introduction"
-      className="relative flex flex-col overflow-hidden bg-gray-800 p-6 sm:h-screen"
+      className="relative flex flex-col overflow-hidden bg-zinc-800 p-6 sm:h-screen"
       style={{ minHeight: 680 }}
     >
       <BgImage />

@@ -8,10 +8,10 @@ const Box = ({ title, icon }: { title: string; icon: IconName }) => {
   return (
     <div
       key={title}
-      className="flex items-center gap-x-3 rounded-full border border-gray-900/10 bg-white py-2 pr-4 pl-2"
+      className="flex items-center gap-x-3 rounded-full border border-zinc-900/10 bg-white py-2 pr-4 pl-2"
     >
-      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gray-50 ring-1 ring-gray-900/10">
-        <DynamicIcon name={icon} className="size-6 shrink-0 text-gray-600" />
+      <div className="flex h-14 w-14 items-center justify-center rounded-full bg-zinc-50 ring-1 ring-zinc-900/10">
+        <DynamicIcon name={icon} className="size-6 shrink-0 text-zinc-600" />
       </div>
       <span className="text-xl">{title}</span>
     </div>
