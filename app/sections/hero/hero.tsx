@@ -10,20 +10,20 @@ const HeroSection = () => {
   return (
     <header
       id="hero"
-      className="flex h-screen flex-col p-4"
+      className="flex flex-col py-6 lg:h-screen"
       style={{ maxHeight: 1200 }}
     >
-      <div className="container mx-auto flex w-full flex-1 flex-col">
-        <div className="grid flex-1 grid-cols-1 gap-x-4 gap-y-10 lg:grid-cols-2">
-          <div className="flex flex-col lg:p-6">
+      <div className="container mx-auto flex-1 px-6 xl:px-10">
+        <div className="grid h-full flex-1 grid-cols-1 gap-x-4 gap-y-20 lg:grid-cols-2">
+          <div className="flex flex-col gap-14 lg:p-6">
             <Link href="/" aria-label="agoroo">
               <Logo />
             </Link>
             <div className="flex flex-1 items-center justify-center gap-8">
-              <div className="flex flex-col items-center gap-4 text-center">
+              <div className="flex flex-col items-center gap-6 text-center">
                 <Link
                   href="#location"
-                  className="relative rounded-full px-3 py-1 text-sm/6 text-zinc-600 ring-1 ring-zinc-900/10 hover:ring-zinc-900/20"
+                  className="relative mb-2 rounded-full px-3 py-1 text-sm/6 text-zinc-600 ring-1 ring-zinc-900/10 hover:ring-zinc-900/20"
                 >
                   Agiou Orous 4, Athens, Greece
                 </Link>
@@ -34,14 +34,14 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="relative flex overflow-hidden rounded-4xl p-6">
+          <div className="relative flex aspect-square overflow-hidden rounded-4xl p-6 lg:aspect-auto">
             <Image
               src={HeroImage}
               alt="Hero Image"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover object-bottom-right"
+              className="object-cover"
             />
           </div>
         </div>

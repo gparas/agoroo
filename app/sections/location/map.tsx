@@ -8,7 +8,7 @@ const LocationMap = () => {
       <Map
         mapId={"d543b72536ff9d9f6c1ba73e"}
         style={{ width: "100%", height: "100%" }}
-        defaultCenter={{ lat: 37.9815012, lng: 23.7109165 }}
+        defaultCenter={{ lat: 37.98164493348696, lng: 23.713502126118836 }}
         defaultZoom={16}
         gestureHandling={"greedy"}
         disableDefaultUI
