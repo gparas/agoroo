@@ -24,11 +24,9 @@ const AboutSection = () => {
             </span>
           </div>
           <p className="mb-20 text-center text-xl">
-            Welcome to my cosy apartment on Agiou Orous, located in the vibrant
-            heart of Kerameikos. This neighbourhood features traditional
-            tavernas, creative spaces, and lively bars, all within walking
-            distance of the historic center. Don’t miss the opportunity to
-            explore and enjoy an authentic experience in Athens!
+            Agoroo is the ideal base for discovering Athens. Wake up in a true
+            Athenian neighbourhood, explore ancient streets just minutes away,
+            and return to a calm, stylish space designed for comfort.
           </p>
         </div>
       </FadeIn>

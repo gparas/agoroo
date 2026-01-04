@@ -28,7 +28,7 @@ const HeroSection = () => {
                   Agiou Orous 4, Athens, Greece
                 </Link>
                 <h1 className="max-w-md text-5xl font-medium tracking-tight text-balance sm:text-6xl">
-                  Urban Comfort in Athens
+                  Stylish Urban Retreat in Athens
                 </h1>
                 <BookButton />
               </div>
