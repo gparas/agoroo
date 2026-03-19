@@ -7,7 +7,7 @@ import FadeIn, { FadeInStagger } from "@/components/fade-in";
 const Amenities = () => {
   return (
     <div>
-      <p className="mb-7 text-center text-base/7 text-zinc-600">Amenities</p>
+      <h2 className="mb-7 text-center text-base/7 text-zinc-600">Amenities</h2>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-flow-col lg:grid-cols-6">
         <FadeIn className="sm:col-span-2 lg:col-start-3">
           <div className="flex h-full min-h-60 flex-col items-center justify-center gap-8 rounded-3xl p-8 ring-1 ring-zinc-900/10">

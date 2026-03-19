@@ -12,9 +12,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Agoroo - Urban Comfort in Athens",
+  title: "Agoroo Athens Apartment | Stylish Stay in Kerameikos",
   description:
-    "Experience modern living at Agoroo, your urban retreat in the heart of Athens. Enjoy stylish accommodations, top-notch amenities, and easy access to the city's vibrant culture and attractions.",
+    "Stay at Agoroo, a stylish Athens apartment in Kerameikos with self check-in, Wi-Fi, balcony, elevator access and easy walks to the historic center.",
 };
 
 export default function RootLayout({

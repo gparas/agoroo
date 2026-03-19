@@ -5,7 +5,7 @@ const Header = () => {
     <FadeIn className="mx-auto mb-16 max-w-2xl text-center">
       <p className="text-base/7 text-zinc-600">Features</p>
       <h2 className="text-3xl tracking-tight text-balance sm:text-5xl">
-        Home Highlights
+        Apartment highlights
       </h2>
     </FadeIn>
   );

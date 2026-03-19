@@ -15,7 +15,7 @@ export const FEATURES = [
     qty: 4,
     title: "Guests",
     icon: "users",
-    description: "For up to 4 people",
+    description: "Sleeps up to 4 guests",
   },
 ];
 

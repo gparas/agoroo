@@ -3,7 +3,7 @@ import Image from "next/image";
 import Logo from "@/components/logo";
 import BookButton from "@/components/book-button";
 
-import HeroImage from "./hero2.jpg";
+import HeroImage from "./agoroo-athens-apartment-kerameikos-hero.jpg";
 import Link from "next/link";
 
 const HeroSection = () => {
@@ -27,8 +27,8 @@ const HeroSection = () => {
                 >
                   Agiou Orous 4, Athens, Greece
                 </Link>
-                <h1 className="max-w-md text-5xl font-medium tracking-tight text-balance sm:text-6xl">
-                  Stylish Urban Retreat in Athens
+                <h1 className="max-w-lg text-5xl font-medium tracking-tight text-balance sm:text-6xl">
+                  Stylish apartment in Kerameikos, Athens
                 </h1>
                 <BookButton />
               </div>
@@ -37,7 +37,7 @@ const HeroSection = () => {
           <div className="relative flex aspect-square overflow-hidden rounded-4xl p-6 lg:aspect-auto">
             <Image
               src={HeroImage}
-              alt="Hero Image"
+              alt="Stylish open-plan apartment at Agoroo in Kerameikos, Athens"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"

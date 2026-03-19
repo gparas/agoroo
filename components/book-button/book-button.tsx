@@ -50,7 +50,7 @@ const BookButton = ({ inverse }: Props) => {
           />
         </span>
       </span>
-      <span>Reserve Now</span>
+      <span>Reserve your stay</span>
     </motion.a>
   );
 };
