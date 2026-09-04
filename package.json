@@ -16,9 +16,9 @@
     "lucide-react": "^0.555.0",
     "motion": "^12.23.26",
     "motion-plus": "https://api.motion.dev/registry?package=motion-plus&version=2.0.2&token=6900a293034878e0f058a42762c7c1693fbf75835e12feb46e94961d2fd6bedf",
-    "next": "^16.0.7",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -26,10 +26,13 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "eslint-config-next": "^16.3.4",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.11.1": true
   }
 }
